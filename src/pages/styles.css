@@ -1,0 +1,68 @@
+.container-form {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+}
+
+.content-form {
+  border-radius: 15px;
+  box-shadow: 1px 4px 10px -2px black;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  padding-top: 10px;
+  width: 400px;
+}
+
+.content-form p {
+  margin: 0;
+  padding: 10px;
+}
+
+.input-fields {
+  border: none;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px 1px black;
+  padding: 10px;
+}
+
+.input-fields:focus {
+  outline: none;
+}
+
+.btn-form {
+  background-color: blue;
+  border-color: blue;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  margin: 20px;
+  padding: 10px;
+}
+
+.btn-form:disabled {
+  background-color: dimgray;
+  border-color: dimgray;
+  border-radius: 5px;
+  color: white;
+  cursor: default;
+  margin: 20px;
+  padding: 10px;
+}
+
+.btn-register {
+  background-color: white;
+  border-color: blue;
+  border-radius: 5px;
+  color: blue;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.container-div-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
